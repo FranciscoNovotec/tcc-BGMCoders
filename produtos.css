@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f5cac2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+
+}
+
+header .botao um {
+  background-color: #f5cac2;
+  border: none;
+  color: #f5cac2;
+  padding: 10px 20px;
+}
+
+.titulo {
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  top: -10px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-size: 3em;
+  color: black;
+}
+
+.promo_titulo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+  margin-left: 43%;
+  color: black;
+  background-color: #f5cac2;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promoo {
+  font-size: 30px;
+  color: black;
+  background-color: #f5cac2;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo {
+  margin-right: 15px;
+  width: 150px;
+  height: auto;
+}
+
+hr {
+  margin: 10px 0 10px 0;
+}
+
+
+body {
+  background-color: #fafdf3;
+  margin: 0% auto;
+  padding: 0% auto;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+
+}
+
+header,
+body {
+  margin: 0%;
+}
+
+
+.text1 {
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.t {
+  font-family: 'Dancing Script', cursive;
+  color: #d67660;
+  margin-top: 5px;
+  margin-left: 16px;
+
+}
+
+.text1 p {
+  text-indent: 2%;
+  font-size: 18px;
+  font-family: Helvetica;
+  text-align: justify;
+  color: black;
+  margin-right: 12px;
+}
+
+.text1 img {
+  width: 100px;
+  height: 100%;
+  margin: 10px;
+  border-radius: 100px;
+  margin-top: 28x;
+}
+
+.text2 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.text2 p {
+  font-family: 'Dancing Script', cursive;
+  text-align: justify;
+  margin: 0 15px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+}
+
+
+:root {
+  --cor-principal: #f5cac2;
+  --cor-hover: white;
+  --cor-borda: #f5cac2;
+}
+
+.botao {
+  border-color: white;
+  background-color: var(--cor-principal);
+  border-radius: 10px;
+  height: 25px;
+  padding: 0 15px;
+  font-size: 14px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.botao:hover {
+  background-color: var(--cor-hover);
+  border-color: var(--cor-borda);
+}
+
+.um {
+  min-width: 120px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+.dois {
+  min-width: 120px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.tres {
+  min-width: 120px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+
+header .um,
+header .dois,
+header .tres {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+}
+
+nav .um {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+nav .dois {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+nav .tres {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* O uso de media queries como @media (max-width: 768px) é essencial para adaptar o layout em dispositivos menores. Com base no problema observado no header, aqui está uma abordagem melhorada para ajustar o design em telas menores:
+
+Ajustes Específicos para Mobile (@media)
+Adicione ou edite as regras dentro do seu bloco @media para dispositivos com largura máxima de 768px: 
+    | 
+    |
+    \/                   */
+
+
+/* cell produtos */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  header .um,
+  header .dois,
+  header .tres {
+    margin: 1px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .um,
+  .dois,
+  .tres {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+
+
+  .pesquisar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pesquisar input,
+  .pesquisar button {
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .text1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .items{
+    padding-left: 0%;
+  }
+
+
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding-top: 10px;
+  }
+
+  header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    position: fixed;
+    top: -10px;
+  }
+
+  aside {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+
+
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  margin-top: 5px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 100%;
+  background-color: #d67660;
+  color: white;
+  cursor: pointer;
+}
+
+/* Campo de input de pesquisa */
+.input-field {
+  width: 100%;
+  border: none;
+  margin-top: 8px;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+#search {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32%;
+  height: 40px;
+  border: 1px solid black;
+  background-color: #f5cac2;
+  color: black;
+  cursor: pointer;
+}
+
+/* Lista de itens */
+.items { 
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que os itens se distribuam em várias linhas */
+  gap: 12px;
+  justify-content: center;
+  padding: 14px;
+  margin-top: 12px;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 1200px;
+  /* Ajuste conforme necessário para a largura máxima */
+  box-sizing: border-box;
+  padding-left: 9%;
+}
+
+/* Estilo do item individual */
+.item {
+  width: 25%;
+  height: auto;
+  background-color: #ffffe0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  /* Ajuste para 4 itens por linha em telas grandes */
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+footer {
+  background-color: #d67660;
+  color: white;
+  padding: 20px 10px;
+}
+
+footer .social-links li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+
+}
+
+
+
+
+
+
+/* Estilo para a imagem do item */
+.item img {
+  width: 100%;
+  max-height: 120px;
+  border-radius: 8px;
+}
+
+/* Título e descrição do item */
+.item-title {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.item-description {
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+
+
+
+
+aside {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 260px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+aside:hover {
+  transform: scale(1.05);
+}
+
+
+aside img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+aside h2 {
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+
+
+aside p {
+  font-size: 14px;
+  color: #666;
+  text-align: justify;
+  margin: 10px 0;
+}

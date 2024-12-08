@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f5cac2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+ 
+}
+
+header .botao um {
+  background-color: #f5cac2;
+  border: none;
+  color: #f5cac2;
+  padding: 10px 20px;
+}
+
+.titulo{
+  font-family: 'Dancing Script', cursive;
+  position: relative;
+  top: -10px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-size: 3em; 
+  color: black;
+}
+ 
+.promo_titulo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+  margin-left: 43%;
+  color: black;
+  background-color: #f5cac2;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promoo{
+font-size: 30px;
+color: black;
+background-color: #f5cac2;
+padding: 10px;
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+header .logo {
+  margin-right: 15px;
+  width: 150px;
+  height: auto;
+}
+
+hr {
+  margin: 10px 0 10px 0;
+}
+
+
+body {
+  background-color: #fafdf3;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+
+}
+
+.pesquisar {
+ 
+  display: flex;
+  justify-content: center; /* Alterado de "right" para "center" para centralizar na tela */
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box; /
+}
+
+.pesquisar input {
+  width: 80%;
+  max-width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: solid 1px black;
+  margin-left: 10px;
+  background-color: #fafdf3;
+  box-sizing: border-box;
+}
+
+.pesquisar ::placeholder {
+  color: #f5cac2;
+  opacity: 50%;
+}
+
+.pesquisar button {
+  border-color: white;
+  background-color: #f5cac2;
+  width: 100px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+ 
+}
+
+.pesquisar button:hover {
+  background-color: white;
+  border-color: #f5cac2;
+}
+
+.text1 {
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.t {
+  font-family: 'Dancing Script', cursive;
+  color: #d67660;
+  margin-top: 5px;
+  margin-left: 16px;
+
+}
+
+.text1 p {
+  text-indent: 2%;
+  font-size: 18px;
+  font-family: Helvetica;
+  text-align: justify;
+  color: black;
+  margin-right: 12px;
+}
+
+.text1 img{
+  width: 100px;
+  height: 100%;
+  margin: 10px;
+  border-radius: 100px;
+  margin-top: 28x;
+}
+
+.text2 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.text2 p {
+  font-family: 'Dancing Script', cursive;
+  text-align: justify;
+  margin: 0 15px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+}
+
+
+:root {
+  --cor-principal: #f5cac2;
+  --cor-hover: white;
+  --cor-borda: #f5cac2;
+}
+
+.botao {
+  border-color: white;
+  background-color: var(--cor-principal);
+  border-radius: 10px;
+  height: 25px;
+  padding: 0 15px;
+  font-size: 14px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.botao:hover {
+  background-color: var(--cor-hover);
+  border-color: var(--cor-borda);
+}
+
+.um {
+  min-width: 120px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+.dois {
+  min-width: 120px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.tres {
+  min-width: 120px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+
+header .um,
+header .dois,
+header .tres {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+}
+
+nav .um {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+nav .dois {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+nav .tres {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.botao:hover,
+#produtos:hover,
+#promocoes:hover {
+  background-color: var(--cor-hover);
+  border-color: var(--cor-principal);
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.buttons .button_promo {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.buttons .button_produ {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#promocoes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  align-items: center;
+  border-radius: 10%;
+  border-color: white;
+  background-color: #f5cac2;
+  width: 105px;
+  height: 105px;
+  cursor: pointer;
+}
+
+#promocoes:hover {
+  background-color: white;
+  border-color: #f5cac2;
+}
+
+#produtos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  align-items: center;
+  border-radius: 10%;
+  border-color: white;
+  background-color: #f5cac2;
+  width: 105px;
+  height: 105px;
+  cursor: pointer;
+}
+
+#produtos:hover {
+  background-color: white;
+  border-color: #f5cac2;
+}
+
+footer {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-links img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: #d67660;
+  color: white;
+  padding: 20px 10px;
+}
+
+footer .social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer .social-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+footer .social-links li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+
+}
+
+
+
+
+
+/* O uso de media queries como @media (max-width: 768px) é essencial para adaptar o layout em dispositivos menores. Com base no problema observado no header, aqui está uma abordagem melhorada para ajustar o design em telas menores:
+
+Ajustes Específicos para Mobile (@media)
+Adicione ou edite as regras dentro do seu bloco @media para dispositivos com largura máxima de 768px: 
+    | 
+    |
+    \/                   */
+
+
+/* cell produtos */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  header .um,
+  header .dois,
+  header .tres {
+    margin: 1px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .um,
+  .dois,
+  .tres {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .titulo {
+    margin-bottom: 10px;
+    font-size: 30px;
+   
+   
+  }
+
+  .pesquisar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pesquisar input,
+  .pesquisar button {
+    width: 80%;
+    margin: 5px 0;
+  }
+
+  .text1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    column-count: 2;
+    align-items: center;
+    background-color: #DAA520;
+    width: auto;
+    height: auto;
+    border: solid 1px black;
+    justify-content: center;
+    }
+
+
+    #novo-container {
+      gap: 10px;
+      grid-template-columns: 1fr;
+    }
+
+    aside {
+      width: auto;
+      margin-bottom: 10px;
+    }
+
+    header nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      padding-top: 10px;
+    }
+
+    header h1 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 50px;
+      
+    }
+
+    #promocoes {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 10px;
+
+      align-items: center;
+      border-radius: 10%;
+      border-color: white;
+      background-color: #f5cac2;
+      width: 105px;
+      height: 105px;
+    }
+
+    #promocoes:hover {
+      background-color: white;
+      border-color: #f5cac2;
+    }
+
+    #produtos {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 10px;
+      align-items: center;
+      border-radius: 10%;
+      border-color: white;
+      background-color: #f5cac2;
+      width: 105px;
+      height: 105px;
+    }
+
+    #produtos:hover {
+      background-color: white;
+      border-color: #f5cac2;
+    }
+
+    .promo_titulo {
+      margin-right: 60%;
+    }
+
+  
+}
+
+
+#novo-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+aside {
+  background-color: #f5f5dc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 260px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+aside:hover {
+  transform: scale(1.05);
+}
+
+
+aside img {
+  width: 100%;
+  max-height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+aside h2 {
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+
+
+aside p {
+  font-size: 14px;
+  color: #555;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.Veja-Mais {
+  background-color: #f5cac2;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Veja-Mais:hover {
+  background-color: #0056b3;
+}
+
+
